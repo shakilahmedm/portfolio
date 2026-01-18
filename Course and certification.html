@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Certificates - Md. Shakil Ahmed</title>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .cert-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      height: 100%;
+      border-bottom: 4px solid #149ddd;
+    }
+    .cert-card:hover { transform: translateY(-10px); }
+    .cert-content { padding: 25px; }
+    .cert-badge { background: #e1f0fa; color: #149ddd; padding: 5px 15px; border-radius: 50px; font-size: 12px; font-weight: 700; margin-bottom: 10px; display: inline-block; }
+    .filter-btn { border-radius: 50px; padding: 8px 25px; margin: 5px; cursor: pointer; border: 2px solid #149ddd; background: transparent; color: #149ddd; font-weight: 600; transition: 0.3s; }
+    .filter-btn.active, .filter-btn:hover { background: #149ddd; color: #fff; }
+  </style>
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Md. Shakil Ahmed</h1>
+    </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> AI Research And Projects</a></li>
+        <li><a href="index.html#interests"><i class="bi bi-hdd-stack navicon"></i> Areas of Interest</a></li>
+        <li><a href="certificates.html" class="active"><i class="bi bi-journal-check navicon"></i> Courses & Certificates</a></li>
+        <li><a href="resources.html"><i class="bi bi-journal-text navicon"></i> Books/Notes</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1>Professional Certifications</h1>
+        <nav class="breadcrumbs">
+          <ol><li><a href="index.html">Home</a></li><li class="current">Certificates</li></ol>
+        </nav>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="text-center mb-5">
+          <button class="filter-btn active" onclick="filterCerts('all')">All</button>
+          <button class="filter-btn" onclick="filterCerts('tech')">AI & Data Analytics</button>
+          <button class="filter-btn" onclick="filterCerts('research')">Research & Academic</button>
+          <button class="filter-btn" onclick="filterCerts('lang')">Language</button>
+        </div>
+
+        <div class="row gy-4" id="cert-grid">
+          
+          <div class="col-lg-6 cert-item tech">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Professional Certification</span>
+                <h3>Machine Learning And Data Science</h3>
+                <p class="text-muted">National Academy for Computer Training And Research (NACTAR)</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Grade:</strong> Class A</li>
+                  <li><strong>Duration:</strong> Nov 2023 - Jul 2024</li>
+                </ul>
+                <a href="assets/docs/Machine Learning and Data Science course certificate.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Certificate</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 cert-item tech">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Course Completion</span>
+                <h3>Introduction to Data Analytics</h3>
+                <p class="text-muted">Bohubrihi (Shikho Technologies)</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Date:</strong> August 25, 2024</li>
+                  <li>Fundamentals of data interpretation and analytical tools.</li>
+                </ul>
+                <a href="assets/docs/Introduction to Data Analytics.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Certificate</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 cert-item research">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Academic Honor</span>
+                <h3>Young Research Talent</h3>
+                <p class="text-muted">DIAL HCI Research Symposium | North South University</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Date:</strong> June 2023</li>
+                  <li>Recognized as emerging talent in Human-Computer Interaction research.</li>
+                </ul>
+                <a href="assets/docs/young research talent  symposium certificate.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Certificate</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 cert-item research">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Membership</span>
+                <h3>Research Society Member</h3>
+                <p class="text-muted">Research Society Organization</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Issued:</strong> Dec 25, 2024</li>
+                  <li>Certified membership for multidisciplinary research contribution.</li>
+                </ul>
+                <a href="assets/docs/Research Society member certificate.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Certificate</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 cert-item research">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Workshop Participation</span>
+                <h3>How to write a Research Report?</h3>
+                <p class="text-muted">Southeast University | Dept. of EEE</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Date:</strong> October 26, 2021</li>
+                  <li>Intensive online workshop on academic reporting standards.</li>
+                </ul>
+                <a href="assets/docs/Certificate of on how to write research report.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Certificate</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 cert-item lang">
+            <div class="cert-card">
+              <div class="cert-content">
+                <span class="cert-badge">Language Proficiency</span>
+                <h3>IELTS Proficiency</h3>
+                <p class="text-muted">International English Language Testing System</p>
+                <ul class="ps-3 mt-3">
+                  <li><strong>Level:</strong> B2 (Upper Intermediate)</li>
+                </ul>
+                <a href="assets/docs/ielts-result.pdf" class="btn btn-outline-primary mt-3" target="_blank">View Result</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    function filterCerts(category) {
+      const items = document.querySelectorAll('.cert-item');
+      const btns = document.querySelectorAll('.filter-btn');
+      
+      // Update active button state
+      btns.forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+
+      // Filter items
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+    window.addEventListener('load', () => { AOS.init(); });
+  </script>
+
+</body>
+</html>
